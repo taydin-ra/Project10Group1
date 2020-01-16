@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <parameter name="username" value="nigeria_tenant_admin"></parameter>
+    <parameter name="password" value="TnvLOl54WxR75vylop2A"></parameter>
+    <parameter name="citizenName" value="Turkey13"></parameter>
+    <parameter name="nameOfPosition" value="PositionGroup13"></parameter>
+    <parameter name="shortNameOfPosition" value="Gr1"></parameter>
+    <parameter name="firstNameOfEmployee" value="Group12"></parameter>
+    <parameter name="lastNameOfEmployee" value="Yorum12"></parameter>
+    <parameter name="dateOfBirth" value="05251990"></parameter>
+    <parameter name="employeeId" value="123456784"></parameter>
+    <parameter name="documentNumber" value="929036737112"></parameter>
+    <test name="Tests">
+        <classes>
+            <class name="TestCitizenship"></class>
+
+
+        </classes>
+    </test>
+</suite>
